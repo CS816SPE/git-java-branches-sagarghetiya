@@ -1,4 +1,4 @@
-package default;
+package mycalc;
 import java.util.*;
 class clac{
 	public static void main(String[] args){
