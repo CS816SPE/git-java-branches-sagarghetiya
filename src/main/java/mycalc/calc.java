@@ -9,7 +9,8 @@ class clac{
 			System.out.println("1. Add two numbers");
 			System.out.println("2. Substract two numbers");
 			System.out.println("3. Multiply two numbers");	
-			System.out.println("4. Exit");
+			System.out.println("4. Divide two numbers ");
+			System.out.println("5: Exit");
 			choice = sc.nextInt();
 			sc.nextLine();
 			switch (choice){
@@ -37,6 +38,14 @@ class clac{
 					System.out.println("Multiplication is : "+(k*l));
 					break;
 				case 4:
+					System.out.println("Enter two numbers : ");
+					float m = sc.nextFloat();
+					sc.nextLine();
+					float n = sc.nextFloat();
+   					sc.nextLine();
+					System.out.println("Division is : "+(m/n));
+					break;
+				case 5:
 					System.exit(0);
 					break;
 				default:
